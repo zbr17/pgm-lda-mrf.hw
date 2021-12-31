@@ -1,3 +1,8 @@
+## Introduction
+This repository is the course project of PGM(probabilistic graphical model) in 2021, which contains two tasks:
+- **LDA(Latent Dirichlet Allocation)** implementation with PyMC3 and gensim.
+- **MRF(Markov random field)** implementation.
+
 ## Dependency
 
 Dependency:
@@ -11,7 +16,7 @@ Dependency:
 conda install -c conda-forge pymc3 theano-pymc mkl mkl-service
 ```
 
-### Quick command
+## Quick command
 To run LDA model, please run:
 ```python
 python lda_gensim.py # Gensim implementation
